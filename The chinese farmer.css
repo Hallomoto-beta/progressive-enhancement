@@ -1,5 +1,8 @@
 body {
 	background-color: linen;
+	background-image: linear-gradient(to bottom, #3f87a6, #ebf8e1, #f69d3c);
+	background: url(https://images.assetsdelivery.com/thumbnails/asyabik/asyabik1707/asyabik170700094.jpg) right bottom no-repeat;
+	background-size: cover;
 	max-width: 90%;
 	margin: auto;
 }
@@ -26,16 +29,14 @@ a:hover, a:active {
   color: white;
 }
 blockquote {
-	width: 45%;
+	max-width: 45%;
 	margin: auto;
 	font-size: 160%;
 	background-color: #c0c0c0;
-	border-top-width: 3px;
+	border-left: 3px solid;
 	border-color: firebrick;
-	border-style: solid;
-	padding: 30px;
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding: 80px 30px 80px 30px;
+/*top-right-bottom-left*/
 }
 
 h1{
