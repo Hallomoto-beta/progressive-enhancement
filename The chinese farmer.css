@@ -1,3 +1,43 @@
 body {
-	background-color: rgba(255, 255, 128, .5);
+	background-color: linen;
+	max-width: 90%;
+	margin: auto;
+}
+p {
+	color: #293133;
+	font-family: serif;
+	margin: auto;
+	front-size : 100%;
+	text-indent: 10px;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+blockquote {
+	width: 45%;
+	margin: auto;
+	font-size: 160%;
+	background-color: #c0c0c0;
+	border-top-width: 3px;
+	border-color: firebrick;
+	border-style: solid;
+	padding: 30px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+h1{
+	color: #293133;
 }
